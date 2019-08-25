@@ -1,0 +1,13 @@
+{
+    "name": "frommmoritz/email-ping",
+    "description": "A simple Class to \"ping\" emails",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Fromm",
+            "email": "git@moritz-fromm.de"
+        }
+    ],
+    "require": {}
+}
