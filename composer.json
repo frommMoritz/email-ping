@@ -20,8 +20,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "PingEmail": "src/"
+        "psr-4": {
+            "frommMoritz\\": "src/"
         }
     }
 }
