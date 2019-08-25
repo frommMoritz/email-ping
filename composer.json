@@ -1,7 +1,7 @@
 {
     "name": "frommmoritz/email-ping",
-    "description": "A simple Class to \"ping\" emails",
-    "type": "libary",
+    "description": "A simple class to \"ping\" emails",
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +9,19 @@
             "email": "git@moritz-fromm.de"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/frommMoritz/email-ping"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PingEmail": "src/"
+        }
+    }
 }
